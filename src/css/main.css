@@ -64,6 +64,10 @@
 
 /* These styles are for the exact replica page. */
 
+.RP {
+  padding-top: 48px;
+}
+
 .RP_Box {
   background-color: #666666;
   padding: 24px;
