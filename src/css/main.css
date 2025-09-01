@@ -21,6 +21,7 @@
 .Card img {
   width: 150px;
   height: 150px;
+  border-radius: 25px;
 }
 
 .title {
@@ -31,4 +32,64 @@
   font-size: 16px;
   font-weight: 600;
   color: #13294B;
+}
+
+.social-icons {
+  margin: 24px 0;
+}
+
+.social-icons a {
+  margin: 0 5px;
+}
+
+.button {
+	background-color: #13294B;
+	border: none;
+	color: white;
+	padding: 10px 20px;
+	text-align: center;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 4px;
+  text-decoration: none;
+}
+
+.caveat {
+  font-size: 8px;
+  font-weight: 600;
+  color: #13294B;
+  margin-top: 24px;
+}
+
+/* These styles are for the exact replica page. */
+
+.RP_Box {
+  background-color: #666666;
+  padding: 24px;
+  margin: 0 auto;
+  text-align: center;
+  font-family: arial;
+  height: 600px;
+  width: 800px;
+}
+
+.RP_Box img {
+  width: 150px;
+  height: 150px;
+}
+
+.RP_Box h1 {
+  color: white;
+}
+
+.RP_Box p {
+  color: white;
+  margin-bottom: 24px;
+}
+
+.Email {
+  font-size: 16px;
+  font-style: italic;
+  color: white;
 }
